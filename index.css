@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1C2833;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.normal-text {
+    font-size: 20px;
+}
+
+.text {
+    color: whitesmoke;
+    font-family: Consolas;
+}
+
+.card {
+    margin-top: 260px;
+    margin-left: 300px;
+    display: table;
+    background-color: #424949;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.socials {
+    text-align: left;
+}
+
+div {
+    display: block;
+}
