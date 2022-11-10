@@ -21,7 +21,7 @@ body {
 }
 
 .card {
-    margin-top: 260px;
+    margin-top: 370px;
     margin-left: 300px;
     display: table;
     background-color: #424949;
@@ -60,6 +60,9 @@ span:hover {
 }
 
 .footer {
-    margin-top: 300px;
-    margin-left: 750px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
 }
