@@ -68,9 +68,10 @@ a {
 }
 
 .socials {
+    margin-top: 15px;
+    display: flex;
     align-items: center;
-    margin-top: 50px;
-    margin-left: 800px;
+    justify-content: center;
 }
 
 span {
