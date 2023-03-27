@@ -7,7 +7,43 @@ body {
 }
 
 .title {
-    font-size: 50px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.title {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.title h1 {
+    margin: 0 auto;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(16, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
 }
 
 .normal-text {
@@ -21,19 +57,10 @@ body {
 }
 
 .card {
-    margin-top: 370px;
-    margin-left: 300px;
-    display: table;
-    background-color: #424949;
-    padding: 50px;
-    border-radius: 25px;
-    border: 2px solid #dadada;
-}
-
-.card:focus {
-    outline: none;
-    border-color: #9ecaed;
-    box-shadow: 0 0 10px #9ecaed;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -41,7 +68,9 @@ a {
 }
 
 .socials {
-    text-align: left;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 800px;
 }
 
 span {
@@ -60,9 +89,10 @@ span:hover {
 }
 
 .footer {
-    position: fixed;
+    margin-top: 250px;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    text-align: center;
-    
 }
